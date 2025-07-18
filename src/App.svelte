@@ -124,12 +124,8 @@
       <div class="hobby">{hobby}</div>
     {/each}
 
-   <h2>Some of My Favorite Things</h2>
-  <div class="card-container">
-    {#each cardData as { image, title, description }}
-      <ImageCard {image} {title} {description} />
-    {/each}
   
-  </div>
+  
+
   </div>
   </div>
