@@ -1,3 +1,5 @@
+<!-- src/lib/ImageCard.svelte -->
+
 <script>
   export let image;  // Image URL prop
   export let title;  // Title prop
@@ -6,7 +8,8 @@
 
 <style>
   .card {
-    border: 1px solid;
+    background-color: #fff;
+    border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
     width: 300px;
@@ -26,11 +29,13 @@
 
   .card-title {
     font-size: 1.5em;
+    color: #333;
     margin: 0 0 10px 0;
   }
 
   .card-description {
     font-size: 1em;
+    color: #666;
     margin: 0;
   }
 </style>
